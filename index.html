@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>洋芋'Log - 技术博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">洋芋'Log</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="active">首页</a>
+                <a href="blog.html">博客</a>
+                <a href="about.html">关于</a>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 英雄区 -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>探索技术的无限可能</h1>
+                <p>分享前端开发、HTML、CSS、JavaScript等技术的深度文章和实用教程</p>
+                <a href="blog.html" class="btn">浏览全部文章</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 精选文章 -->
+    <section class="featured-posts">
+        <div class="container">
+            <h2>精选文章</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">前端开发</span>
+                            <span class="date">2023-11-15</span>
+                        </div>
+                        <h3><a href="blog/1.html">HTML5 新特性详解</a></h3>
+                        <p>探索HTML5带来的新功能和API，包括语义化标签、Canvas、WebStorage等创新技术。</p>
+                        <div class="post-footer">
+                            <span class="read-time">5 分钟</span>
+                            <a href="blog/1.html" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">CSS</span>
+                            <span class="date">2023-11-10</span>
+                        </div>
+                        <h3><a href="blog/2.html">CSS Flexbox 和 Grid 布局</a></h3>
+                        <p>深入理解CSS布局的现代技术，以及如何在实际项目中高效使用它们。</p>
+                        <div class="post-footer">
+                            <span class="read-time">8 分钟</span>
+                            <a href="blog/2.html" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">JavaScript</span>
+                            <span class="date">2023-11-05</span>
+                        </div>
+                        <h3><a href="blog/3.html">JavaScript 高级技巧</a></h3>
+                        <p>掌握JavaScript中的高级编程技巧，提升代码的性能和开发效率。</p>
+                        <div class="post-footer">
+                            <span class="read-time">6 分钟</span>
+                            <a href="blog/3.html" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="view-all">
+                <a href="blog.html" class="btn btn-outline">查看更多文章</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 订阅区域 -->
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe-content">
+                <h2>订阅最新文章</h2>
+                <p>获取最新的技术文章和教程，直接发送到您的邮箱</p>
+                <form id="subscribeForm">
+                    <input type="email" placeholder="您的邮箱地址" required>
+                    <button type="submit" class="btn">订阅</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>洋芋'Log</h3>
+                    <p>分享技术，连接未来</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">首页</a>
+                    <a href="blog.html">博客</a>
+                    <a href="about.html">关于</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© <span id="currentYear"></span> 洋芋'Log. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

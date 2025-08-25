@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章详情 - 洋芋'Log</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">洋芋'Log</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="blog.html">博客</a></li>
+                    <li><a href="#about">关于</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <article class="article-container" id="article-content">
+        <!-- 文章内容将通过JavaScript动态加载 -->
+        <div class="container">
+            <div class="article-header">
+                <div class="article-meta">
+                    <span class="article-category">技术</span>
+                    <span class="article-date">2023年12月15日</span>
+                </div>
+                <h1 class="article-title">文章标题将动态加载</h1>
+                <div class="article-author">
+                    <img src="https://via.placeholder.com/50" alt="作者头像" class="author-avatar">
+                    <div class="author-info">
+                        <h4>作者名称</h4>
+                        <p>作者简介</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="article-featured-image">
+                <img src="https://via.placeholder.com/1200x600" alt="文章特色图片">
+            </div>
+            
+            <div class="article-content">
+                <p>文章内容将动态加载...</p>
+            </div>
+            
+            <div class="article-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Web开发</span>
+                <span class="tag">前端</span>
+            </div>
+            
+            <div class="article-share">
+                <h3>分享这篇文章</h3>
+                <div class="social-share">
+                    <a href="#" class="share-btn twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="share-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="#" class="share-btn linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                </div>
+            </div>
+            
+            <div class="article-comments">
+                <h3>评论 (<span id="comment-count">0</span>)</h3>
+                <form class="comment-form">
+                    <textarea placeholder="写下您的评论..."></textarea>
+                    <div class="form-footer">
+                        <input type="text" placeholder="您的名字">
+                        <input type="email" placeholder="您的电子邮件">
+                        <button type="submit" class="btn">提交评论</button>
+                    </div>
+                </form>
+                
+                <div class="comments-list" id="comments-container">
+                    <!-- 评论将通过JavaScript动态加载 -->
+                </div>
+            </div>
+            
+            <div class="related-articles">
+                <h3>相关文章</h3>
+                <div class="related-grid" id="related-articles-container">
+                    <!-- 相关文章将通过JavaScript动态加载 -->
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>洋芋'Log</h2>
+                    <p>分享技术、设计和创意的博客平台</p>
+                </div>
+                <div class="footer-links">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="#about">关于我们</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>关注我们</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 洋芋'Log. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/article.js"></script>
+</body>
+</html>
