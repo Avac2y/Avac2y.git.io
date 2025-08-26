@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             author: '张三',
             date: '2023-12-15',
             category: 'technology',
-            image: 'https://via.placeholder.com/600x400',
+            image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%23555%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20x%3D%22300%22%20y%3D%22200%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E600x400%3C%2Ftext%3E%3C%2Fsvg%3E',
             tags: ['Node.js', 'Web开发', '后端']
         },
         {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             author: '李四',
             date: '2023-12-10',
             category: 'design',
-            image: 'https://via.placeholder.com/600x400',
+            image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%23555%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20x%3D%22300%22%20y%3D%22200%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E600x400%3C%2Ftext%3E%3C%2Fsvg%3E',
             tags: ['CSS', '前端', '设计']
         },
         {
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             author: '王五',
             date: '2023-12-05',
             category: 'technology',
-            image: 'https://via.placeholder.com/600x400',
+            image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%23555%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20x%3D%22300%22%20y%3D%22200%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E600x400%3C%2Ftext%3E%3C%2Fsvg%3E',
             tags: ['JavaScript', '前端', '编程']
         },
         {
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
             author: '赵六',
             date: '2023-11-28',
             category: 'technology',
-            image: 'https://via.placeholder.com/600x400',
+            image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%23555%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20x%3D%22300%22%20y%3D%22200%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E600x400%3C%2Ftext%3E%3C%2Fsvg%3E',
             tags: ['React', '前端', '性能优化']
         },
         {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             author: '钱七',
             date: '2023-11-20',
             category: 'design',
-            image: 'https://via.placeholder.com/600x400',
+            image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%23555%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20x%3D%22300%22%20y%3D%22200%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E600x400%3C%2Ftext%3E%3C%2Fsvg%3E',
             tags: ['UX', '设计', '用户体验']
         },
         {
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             author: '孙八',
             date: '2023-11-15',
             category: 'design',
-            image: 'https://via.placeholder.com/600x400',
+            image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Crect%20fill%3D%22%23ddd%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%23555%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20x%3D%22300%22%20y%3D%22200%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E600x400%3C%2Ftext%3E%3C%2Fsvg%3E',
             tags: ['数据可视化', '设计', 'D3.js']
         }
     ];
